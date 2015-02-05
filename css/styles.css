@@ -1,0 +1,87 @@
+*{
+	/* A universal CSS reset */
+	margin:0;
+	padding:0;
+}
+
+html{
+	background-color:#D2E1FF;
+}
+
+body{
+    background: #D2E1FF;
+	width: 100%;
+}
+
+input{
+	margin:15px;
+	padding: 5px;
+	border-style: none;
+	border-radius:5px;
+}
+
+input .field{
+	background:#3E4AB8
+	font-family:"Arial Narrow",Arial,Helvetica,sans-serif;
+	color:#FFF;
+}
+
+
+#main{
+	width:50%;
+	/* Centering it in the middle of the page */
+	margin:60px auto;
+}
+
+.outer_container{
+
+	width:100%;
+	background:#FFF;
+	float:left;
+	/* Rounded corners */
+	-moz-border-radius:10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius:5px;
+}
+
+.head{
+	font-family:"Arial Narrow",Arial,Helvetica,sans-serif;
+	color:#FFF;
+	background:#FFC600;
+	padding:15px;
+	background: -moz-linear-gradient(#FFC600, #E99A11);
+	background: -webkit-linear-gradient(#FFC600, #E99A11);
+	background: -o-linear-gradient(#FFC600, #E99A11);
+	background: linear-gradient (#FFC600, #E99A11);
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFC600), to(#E99A11));
+	border-radius:5px;
+	margin: 3px;
+}
+
+.next_button{
+	font-family:"Arial Narrow",Arial,Helvetica,sans-serif;
+	color:#FFF;
+	background:#3E4AB8;
+	padding:10px;
+	width:20%;
+	text-align: center;
+	cursor:pointer;
+	border-radius:5px;
+}
+
+.form{
+	background:#DEDEDE;
+	font-family:"Arial Narrow",Arial,Helvetica,sans-serif;
+	border-radius:5px;
+	margin: 3px;
+}
+#form2 {
+    display: none;
+}
+
+#form3 {
+    display: none;
+}
+
+
