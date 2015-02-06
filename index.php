@@ -16,7 +16,6 @@ require 'connect.php';	//script to connect to database server
 
 		<!--Jquery for sliding panels-->		
 		<script src="js/slide.js" type="text/javascript"></script> 
-
 		
 	</head>
 
@@ -25,7 +24,7 @@ require 'connect.php';	//script to connect to database server
 	<div id="main">
 		<div class="outer_container">
 		
-		<form action="" method="post">
+			<form action="" method="post">
 				<div id="step_1_head">
 					<div class="head">
 						Step 1: Your Details
@@ -39,7 +38,7 @@ require 'connect.php';	//script to connect to database server
 						<input type="surname" name="surname" id="surname" size="23" />
 						<div id="next1">
 							<div class="next_button">
-								Next >
+								Next &gt
 							</div>
 						</div>
 					</div>
@@ -56,7 +55,7 @@ require 'connect.php';	//script to connect to database server
 						<input type="text" name="telephone" id="telephone" value="" size="23" />
 						<div id="next2">
 							<div class="next_button">
-								Next >
+								Next &gt
 							</div>
 						</div>
 					</div>
@@ -71,13 +70,25 @@ require 'connect.php';	//script to connect to database server
 					<div class="form">
 						<label for="telephone"><p>Telephone Number::</p></label>
 						<input type="text" name="telephone" id="telephone" value="" size="23" />
+						<input type="submit" name="submit" value="Submit" class="next_button" />
 					</div>
 				</div>
 
-		</form>
+			</form>
 		
 		</div>
 	</div>
+	
+<!-- INCLUDING THE BOOTSTRAP CDN -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	
 	</body>
 </html>
 
